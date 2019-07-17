@@ -1,0 +1,6 @@
+<app-header></app-header>
+<main>
+  <agm-map [latitude]="lat" [longitude]="lng" (mapClick)="onChoseLocation($event)">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
+</main>

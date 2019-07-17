@@ -1,0 +1,17 @@
+<h2 mat-dialog-title>Weather Summary</h2>
+<mat-dialog-content class="mat-typography">
+
+  <h3>Time Zone: {{data.timezone}}</h3>
+
+  <h3>Apparent Temperature: {{data.apparentTemperature}} Fº</h3>
+
+  <h3>Summary: {{data.summary}}</h3>
+
+  <h3>Humidity: {{data.humidity}}</h3>
+
+  <h3>Temperature: {{data.temperature}} Fº</h3>
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Close</button>
+</mat-dialog-actions>

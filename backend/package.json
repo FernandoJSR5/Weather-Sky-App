@@ -1,0 +1,11 @@
+{
+  "name": "mean-course",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dark-sky": "^1.1.5",
+    "express": "^4.17.1",
+    "redis": "^2.8.0"
+  }
+}
